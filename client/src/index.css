@@ -1,0 +1,209 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+/* navbar */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 15px;
+  text-transform: uppercase;
+  /* box-shadow: 0 8px 6px -6px gray; */
+  /* --webkit-box-shadow: 0 8px 6px -6px gray; */
+  border-bottom: solid #808080 !important; 
+  max-height: 75px;
+  font-weight: 500;
+
+}
+
+.navbar-nav li:nth-child(2) .nav-link {
+  font-weight: 500;
+}
+.nav-link{
+  margin-top: 5px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  color: #FCA61F;
+}
+
+.dropdown-item:hover {
+  color: #FCA61F;
+  background-color: #fff;
+}
+
+.navbar-nav li:hover .nav-link {
+  color: #FCA61F;
+  font-weight: 650;
+  
+}
+
+
+.dropdown-menu-dark a {
+  color: #070707; 
+  font-size: 500px;/* Replace with your desired dark color value */
+}
+
+.navbar-brand img {
+  max-width: 7%;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0rem;
+}
+.dropdown-menu{
+  font-weight: 650;
+}
+
+.nav-link {
+  font-weight: 650 !important;
+  
+}
+/* Search Button */
+
+/* .active {
+  border-bottom: 2px solid black;
+} */
+
+/* .navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+} */
+
+/* styling images */
+/* .slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+}
+
+.slider img {
+  width: 50%;
+  /* max-width: 500px; */
+  /* max-height: 50%;
+  height: auto;
+  object-fit: contain;
+  margin: 0 10px;
+} */ */
+
+
+.search-form {
+  margin-right: 30px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+  margin-top: 4px;
+}
+.search-form button {
+  background-color: #000000;
+  border-radius: 0;
+  color: white;
+  flex-direction: column;
+  
+}
+
+/* =============================
+==========footer============= */
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: black;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #434343;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+/* CSS for register */

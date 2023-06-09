@@ -1,0 +1,22 @@
+.suyash-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+
+}
+
+.suyash-input {
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 5px; /* reduce padding size */
+  outline: none;
+  flex: 1;
+  max-width: 300px; /* reduce max-width of search field */
+} 
+
+.suyash-input:hover {
+  background: grey;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}

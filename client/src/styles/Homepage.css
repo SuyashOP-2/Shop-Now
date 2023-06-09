@@ -1,0 +1,110 @@
+
+  .image-wrapper {
+    width: 50px;
+    height: 50px;
+  }
+  .product-image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color:  rgb(255, 255, 255);
+  }
+  .home-page .card {
+     /* background-color: rgba(128, 128, 128, 0.097); */
+    flex-basis: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+  }
+  @media (max-width: 768px) {
+    .home-page .card {
+      flex-basis: calc(100% - 1rem);
+    }
+  }
+  
+  .home-page .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .home-page .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .home-page button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .home-page .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .home-page .card img:hover {
+    transform: scale(0.9); /* Add a scale transform effect to the image when it is hovered */
+  }
+  .home-page .ms-1 {
+    color : rgb(227, 173, 71)
+  }
+  .home-page .ms-2{
+    /* border-radius: 34px; */
+    border: none;
+    color: white;
+    /* font-size: 16px; */
+    /* padding: 11px 26px 11px 26px; */
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+  }
+  .home-page .ms-2 :hover {
+
+    background: linear-gradient(180deg, #fb982f 26.71%, #fdc50f 99.36%);
+    color: white;
+    box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42), 0px 0px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease-in-out;
+
+  }
+  .home-page .card-img-top {
+    height: 300px !important;
+  }
+  /* ==================
+  filters
+  ============== */
+  .filters h4 {
+    margin-top: 100px;
+    color:  #525252!important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+    font-weight: 650;
+  }
+  
+  .ant-checkbox-wrapper:first-of-type {
+    margin-left: 8px;
+  }
+  
+  .ant-checkbox-wrapper {
+    margin: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 10px;
+  }
+  
+  .filters button {
+    background-color: rgb(250, 174, 33);
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+  
+  .loadmore {
+    color: #3c372f;
+    font-weight: bold;
+    font-size: 20px !important;
+  }
