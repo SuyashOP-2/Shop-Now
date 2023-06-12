@@ -6,7 +6,7 @@ Database
 Privacy of Application create,update,delete Functionality for products
 and category
 • Added Authorization, SEO Enhancing Functionality,Reduce Server
-Overload, in the app
+Overload, in  app
 
 
 
